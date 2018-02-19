@@ -21,6 +21,9 @@
 }
 #dd_article_slides .article_slide img {
     width: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
 }
 #dd_article_slides #dd_article_slides_fields1 {
     display: block;
@@ -53,7 +56,9 @@
 }
 
 #dd_article_slides .article_slide_info p {
-    margin-bottom: 6px;
+    font-weight: normal;
+    color: #fff;
+    margin: 0 0 6px;
 }
 
 #dd_article_slides .article_slide_info_toggle {
@@ -78,7 +83,8 @@
 }
 #dd_article_slides .article_slide_info_toggle span[class^="icon-"] {
     position: relative;
-    left: -2px;
+    left: 2px;
+    display: block;
 }
 #dd_article_slides .article_slide_info_toggle .icon-dd-arrow-up {
     bottom: -2px;
